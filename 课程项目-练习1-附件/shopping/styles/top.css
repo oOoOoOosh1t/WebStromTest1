@@ -1,0 +1,59 @@
+audio{
+    width: 200px;
+    height: 100px;
+    display: none;
+}
+svg{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    color: #F24405;
+}
+.top{
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #333333;
+    margin-bottom: 50px;
+}
+.top span {
+    display: inline-block;
+}
+
+.slogo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -0.1rem;
+    position: relative;
+    color: #eB565B;
+    right: -256px;
+    top: 4px;
+}
+
+.title{
+    text-align: center;
+    height: 150px;
+}
+
+.personal_detail{
+    color: #fff;
+    padding: 2px;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 256px;
+    top: 12px;
+}
+
+.personal_detail a{
+    text-decoration: none;
+}
+.personal_detail img{
+    border-radius: 2px;
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pengPengPhantom",
+    "name": "砰砰特工队 幻影",
+    "price": "1790",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Phantom/pengpengtegongdui_huanyin.webp",
+    "length": "wep"
+  },
+  {
+    "id": "gaiya2.0Marshal",
+    "name": "盖亚的复仇2.0 战神",
+    "price": "1590",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Ares/gaiya2.0_Marshal.webp",
+    "length": "wep"
+  },
+  {
+    "id": "liziBucky",
+    "name": "离子圣芒 雄鹿",
+    "price": "1590",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Bucky/Lizi_Bucky.webp",
+    "length": "wep"
+  },
+  {
+    "id": "guangPuBulldug",
+    "name": "光谱 僚犬",
+    "price": "1590",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Bulldug/guangpuliaoquan.webp",
+    "length": "wep"
+  },
+  {
+    "id": "guangClassic",
+    "name": "光谱 标配",
+    "price": "2675",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Classic/guangpu_Classic.webp",
+    "length": "frenzy"
+  },
+  {
+    "id": "titanmailFrenzy",
+    "name": "泰坦 狂怒",
+    "price": "890",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/green.webp",
+    "imgUrl3": "images/weapon/Frenzy/titanmail_frenzy.webp",
+    "length": "frenzy"
+  },
+  {
+    "id": "gaishiyingxiongGhost",
+    "name": "盖世英雄 鬼魅",
+    "price": "1590",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Ghost/gaishiyinxiong_guimei.webp",
+    "length": "wep"
+  },
+  {
+    "id": "linghunchongjiGuardian",
+    "name": "灵魂冲击 戍卫",
+    "price": "1290",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Guardian/linghunchongji_Guardian.webp",
+    "length": "wep"
+  },
+  {
+    "id": "jingShuLangChaoJudge",
+    "name": "金属浪潮 判官",
+    "price": "通行证",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/green.webp",
+    "imgUrl3": "images/weapon/Judge/jingshulangchao_judge.webp",
+    "length": "wep"
+  },
+  {
+    "id": "heiShiHuDieKnife",
+    "name": "黑市 蝴蝶刀",
+    "price": "2590",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Knife/heishihudiedao.webp",
+    "length": "wep"
+  },
+  {
+    "id": "guangMing2.0Odin",
+    "name": "光明哨兵2.0 奥丁",
+    "price": "2175",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/orange.webp",
+    "imgUrl3": "images/weapon/Odin/guangming2.0Odin.webp",
+    "length": "wep"
+  },
+  {
+    "id": "gaiShiYingXiongOperator",
+    "name": "盖世英雄 冥驹",
+    "price": "1775",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3": "images/weapon/Operator/gaishiyingxiongOperator.webp",
+    "length": "wep"
+  },
+  {
+    "id" : "there_is_only_one",
+    "name" : "真相只有一个",
+    "price": "5000",
+    "kind": "knife",
+    "imgUrl1": "images/icon/vp.webp",
+    "imgUrl2": "images/icon/purple.png",
+    "imgUrl3" : "images/paint/thereIsOnlyOneTruthSpray.gif",
+    "length" : "paint"
+  }
+]

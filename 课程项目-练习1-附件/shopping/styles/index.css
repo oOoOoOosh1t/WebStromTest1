@@ -1,0 +1,155 @@
+.main {
+    height: 1000px;
+}
+.small {
+    height: 1200px;
+}
+.small .head div img {
+    margin: 30px;
+}
+.bar{
+    margin-bottom: 50px;
+    height: 50px;
+}
+.bar form{
+    position: relative;
+    width: 350px;
+    border-radius: 999px;
+    margin: 0 auto;
+    background-color: #f9f0da;
+}
+.bar form:hover{
+    box-shadow: 0px 4px 12px rgba(236, 173, 48, 0.511);
+    scale: 1.01;
+    border: 1px solid #be290e;
+    background-color: #eB565B;
+    color: #fff;
+}
+
+.bar form:hover button::before{
+    color: #fff;
+}
+.bar input, .bar button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.bar input{
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+    text-align: left;
+}
+.bar button{
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bar input::placeholder{
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    font-size: 20px;
+    color: #eB565B;
+}
+
+.bar button::before{
+    content: "\27A8";
+    font-size: 20px;
+    color: #eB565B;
+}
+
+
+.yeshu {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1000px;
+}
+
+.yeshu li {
+    padding: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    height: 20px;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #B0B0B0;
+    width: 20px;
+}
+
+
+
+#vp{
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+a{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+
+.mus{
+    z-index: 20;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+}
+
+.music{
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: -0.02rem;
+    position: relative;
+    color: #eB565B;
+    border: 0;
+    border-radius: 0.35rem;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.music:hover{
+    cursor: pointer;
+}
+
+.music span:hover{
+    background-color: #eB565B;
+    color: #fff;
+}
+
+.music::after{
+    content: '';
+    position: absolute;
+    background: conic-gradient(from 180deg at 50% 50%, #00D1FF 0deg, #EE27FF 106.88deg, #205EFF 206.25deg, #00F0FF 286.87deg, #00D1FF 360deg);
+    top: -200px;
+    right: -200px;
+    bottom: -200px;
+    left: -200px;
+    z-index: -1;
+    animation: 3s rotate linear infinite;
+}
+
+.music > span{
+    background-color: black;
+    display: block;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.35rem;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

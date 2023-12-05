@@ -1,0 +1,129 @@
+.content ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    width: 70%;
+    min-height: 500px;
+}
+
+@keyframes glow{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: 400%;
+    }
+}
+
+.lbox .box-content .pri_logo{
+    position: relative;
+    top: 4px;
+    right: 6px;
+    width: auto;
+    height: 24px;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.lbox .box-content .lev_logo{
+    position: relative;
+    top: 8px;
+    left: 6px;
+    width: auto;
+    height: 32px;
+}
+
+.lbox .box-content{
+    filter: drop-shadow(0px 3px 6px rgb(255, 0, 238));
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    transform: translateX(-50%);
+    position: relative;
+    opacity: 0;
+    top: 6%;
+    left: 50%;
+    z-index: 1;
+}
+
+.content .knife {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #242040;
+    border-radius: 10px;
+    height: 240px;
+}
+
+.knife:hover .box-content {
+    animation: fade-in 1s linear forwards;
+ }
+
+ @keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.knife .name{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: #586B73;
+}
+
+.content .knife:hover .name{
+    color: #eB565B;
+}
+
+.content .knife .wep{
+    filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
+    position: relative;
+    margin-top: -5px;
+    width: 100%;
+    height: auto;
+    justify-self: center;
+}
+
+.content .knife:hover{
+    scale: 1.02;
+    box-shadow: 2px 4px 12px rgba(236, 173, 48, 0.696);
+    background: linear-gradient(
+        90deg,
+        #f9d923,
+        #00a19d,
+        #0c87b7,
+        #cb49ff,
+        #ff6666,
+        #f9d923
+    );
+    background-size: 400%;
+    animation: glow 12s linear infinite;
+}
+
+.frenzy{
+    filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
+    margin: 5px;
+    width: 70%;
+}
+
+.eg{
+    filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
+    width: 85%;
+}
+
+.paint{
+    filter: drop-shadow(0px 3px 6px rgba(236, 173, 48, 0.379));
+    width: 75%;
+    margin-top: -10px;
+    margin-bottom: -15px;
+}

@@ -1,0 +1,16 @@
+@import url(index.css);
+@import url(mainitem.css);
+@import url(footer.css);
+@import url(top.css);
+@import url(tab.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font-family: 'Noto Sans',sans-serif;
+}
+body{
+    filter: blur(0.3);
+    transition: all 1s;
+}
